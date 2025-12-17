@@ -66,6 +66,7 @@ class UpdateProfileRequest(BaseModel):
         extra = "allow"
 
 @app.get("/")
+@app.head("/")
 def health_check():
     """Health check endpoint"""
     return {
