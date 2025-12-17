@@ -5,6 +5,9 @@
 .env.development
 .env.production
 
+# Separate repositories
+Main_web/
+
 # Node modules
 node_modules/
 npm-debug.log*
